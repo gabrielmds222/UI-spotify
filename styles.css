@@ -40,6 +40,8 @@ body {
 #nav .nav-content ul {
     list-style: none;
     display: flex;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 #nav .nav-content ul li {
