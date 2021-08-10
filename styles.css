@@ -26,3 +26,9 @@ body {
     display: flex;
     justify-content: center;
 }
+
+#nav .nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
