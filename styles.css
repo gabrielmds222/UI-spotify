@@ -22,13 +22,20 @@ body {
 
 #nav {
     width: 100%;
+    top: 0;
     background: #000;
     display: flex;
     justify-content: center;
+    position: absolute;
 }
 
 #nav .nav-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.nav-content ul {
+    list-style: none;
+    display: flex;
 }
