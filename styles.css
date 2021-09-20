@@ -1,6 +1,7 @@
 :root {
 	--default-green: #1db954;
 	--light-green: #1ed760;
+    --showcase1: #B49BC8;
 }
 
 * {
@@ -46,4 +47,20 @@ body {
 
 #nav .nav-content ul li {
     padding: 0 20px;
+    transition: all 300ms ease;
 }
+
+#nav .nav-content ul li:hover {
+    color: var(--light-green);
+    cursor: pointer;
+}
+
+#nav .nav-content ul li:nth-child(3) {
+    border-right: 1px solid white;
+}
+
+.nav-content ul li:nth-child(4), 
+li:nth-child(5) {
+    color: #D9DADC;
+}
+
