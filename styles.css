@@ -3,7 +3,8 @@
 :root {
 	--default-green: #1db954;
 	--light-green: #1ed760;
-    --showcase1: #B49BC8;
+    --showcase-premium: #B49BC8;
+    --showcase-free: #2941AB;
 }
 
 * {
