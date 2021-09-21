@@ -76,16 +76,14 @@ li:nth-child(5) {
 
 
 #main {
-    display: flex;
-    flex-direction: row;
+    display: block;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 #main .main-content {
-    height: 100vh;
-    display: flex;
-    
+    height: 100vh; 
 }
 
 #main .premium {
