@@ -24,6 +24,11 @@ body {
     width: auto;
 }
 
+/* .showcase {
+    height: 320px;
+    width: auto;
+} */
+
 
 /* ----------------------  HEADER  ---------------------- */
 
@@ -92,3 +97,8 @@ li:nth-child(5) {
 #main .free {
     background: var(--showcase-free);
 }
+
+
+
+
+/* ----------------------  FOOTER  ---------------------- */
