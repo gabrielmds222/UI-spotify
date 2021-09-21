@@ -75,3 +75,15 @@ li:nth-child(5) {
 /* ----------------------  MAIN  ---------------------- */
 
 
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .main-content {
+    height: 100vh;
+    display: flex;
+    
+}
