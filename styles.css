@@ -87,3 +87,10 @@ li:nth-child(5) {
     display: flex;
     
 }
+
+#main .premium {
+    background: var(--showcase-premium);
+}
+#main .free {
+    background: var(--showcase-free);
+}
