@@ -88,17 +88,34 @@ li:nth-child(5) {
 
 #main .main-content {
     height: 100vh;
+    padding-left: 100px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
 }
 
+#main .main-content p {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+#main .main-content h1 {
+    font-size: 4rem;
+}
+
 #main .premium {
     background: var(--showcase-premium);
+    color: #000;
 }
 #main .free {
     background: var(--showcase-free);
+    color: var(--light-green);
 }
 
 
