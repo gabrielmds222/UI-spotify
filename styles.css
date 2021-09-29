@@ -114,3 +114,10 @@ li:nth-child(5) {
 	color: var(--default-green);
 	cursor: pointer;
 }
+
+#footer .footer-content .footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
