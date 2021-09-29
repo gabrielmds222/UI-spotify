@@ -115,7 +115,7 @@ li:nth-child(5) {
 
 #footer .footer-content {
     display: flex;
-    width: 60%;
+    width: 80%;
     margin: auto;
     justify-content: space-between;
 }
@@ -142,3 +142,31 @@ li:nth-child(5) {
     font-size: 0.8rem;
 }
 
+
+
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 60%;
+	margin: auto;
+	font-weight: bold;
+	color: #919496;
+	font-size: 0.75rem;
+	padding-top: 50px;
+}
+
+.footer-info .footer-info-items {
+	display: flex;
+	list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+	margin: 0 10px;
+	transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
