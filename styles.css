@@ -84,6 +84,26 @@ li:nth-child(5) {
 
 
 
+
+
+/* ----------------------  SOCIALS  ---------------------- */
+
+
+.socials {
+	display: flex;
+}
+
+.socials i {
+	margin: 0 20px;
+	font-size: 1.7rem;
+	transition: all 300ms ease;
+}
+
+.socials i:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
 /* ----------------------  FOOTER  ---------------------- */
 
 
