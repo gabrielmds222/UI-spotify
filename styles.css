@@ -82,11 +82,22 @@ li:nth-child(5) {
 #main {
     height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+	display: block;
+	justify-content: center;
+	align-items: center;
 }
 
+#main .main-content {
+    width: 80%;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#main .main-content p {
+    margin: 15px 0;
+	font-size: 1.1rem;
+}
 
 #main .premium {
     color: #000;
