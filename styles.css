@@ -98,36 +98,20 @@ li:nth-child(5) {
 
 #main {
     width: 100%;
-	display: block;
-	justify-content: center;
-	align-items: center;
+    background: var(--showcase-premium);
+    display: flex;
+    justify-content: center;
 }
 
 #main .main-content {
     height: 100vh;
-    width: 100%;
-    display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-#main .main-content p {
-    margin: 15px 0;
-	font-size: 1.1rem;
-}
-
-#main .premium {
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #000;
-    background: var(--showcase-premium);
+    padding: 20px 0;
 }
 
-#main .free {
-    color: #1ed760;
-    background: var(--showcase-free);
-}
 
 
 
