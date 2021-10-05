@@ -26,7 +26,7 @@ body {
 
 .btn {
     background: var(--default-green);
-	color: white;
+	color: var(--showcase-free);
 	text-transform: uppercase;
 	padding: 15px 60px;
 	border: none;
@@ -96,7 +96,7 @@ li:nth-child(5) {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
+	color: var(--light-green);
 	background: var(--showcase-free)
 }
 
