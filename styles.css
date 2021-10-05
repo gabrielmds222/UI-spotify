@@ -24,11 +24,6 @@ body {
     width: auto;
 }
 
-.showcase {
-    height: 320px;
-    width: auto;
-}
-
 .btn {
     background: var(--default-green);
 	color: white;
