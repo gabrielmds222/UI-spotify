@@ -25,19 +25,20 @@ body {
 }
 
 .btn {
-    background: #1ED760;
+    background: var(--default-green);
 	color: var(--showcase-free);
 	text-transform: uppercase;
 	padding: 14px 32px;
 	border: none;
 	border-radius: 500px;
 	letter-spacing: 1px;
-	font-weight: 700px;
-	transition: all 300ms ease;
+	font-weight: bold;
+	transition: all 100ms ease;
 }
 
 .btn:hover {
 	background: var(--light-green);
+    font-size: 14px;
 	cursor: pointer;
 }
 
@@ -93,7 +94,7 @@ li:nth-child(5) {
 
 
 #main {
-    height: 140vh;
+    height: 155vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -164,7 +165,7 @@ li:nth-child(5) {
 }
 
 #footer .footer-content .footer-menu .footer-menu-item {
-    margin: 25px 0;
+    margin: 25px 0px;
     transition: all 300ms ease;
 }
 
