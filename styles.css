@@ -92,10 +92,12 @@ li:nth-child(5) {
 /* ----------------------  MAIN  ---------------------- */
 
 #main {
-    width: 100%;
-    background: var(--showcase-premium);
-    display: flex;
-    justify-content: center;
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background: var(--showcase-free)
 }
 
 #main .main-content {
