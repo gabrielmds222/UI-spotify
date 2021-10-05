@@ -106,7 +106,12 @@ li:nth-child(5) {
 	align-items: center;
 }
 
-
+#main .main-content h2 {
+    width: 754px;
+    font-size: 104px;
+    line-height: 104px;
+    padding-bottom: 24px;
+}
 
 
 
