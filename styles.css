@@ -110,7 +110,9 @@ li:nth-child(5) {
     width: 754px;
     font-size: 104px;
     line-height: 104px;
+    padding-top: 150px;
     padding-bottom: 24px;
+    flex-wrap: wrap;
 }
 
 
